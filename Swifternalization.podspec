@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "Tomasz Szulc" => "mail@szulctomasz.com" }
   s.social_media_url = "http://twitter.com/tomkowz"
 
-  s.platform     = :ios, '8.0'
+  s.platforms    = { :ios => "8.0", :osx => "10.7", :watchos => "2.0", :tvos => "9.2" }
 
   s.source       = { :git => "https://github.com/tomkowz/Swifternalization.git", :tag => "v1.3.1" }
   
